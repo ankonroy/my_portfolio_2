@@ -17,6 +17,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 // importing assets
+import projectDrinkPanda from "../../public/assets/projects/projectDrinkPanda.png";
 import projectMoviex from "../../public/assets/projects/projectMoviex.png";
 import projctHomePrice from "../../public/assets/projects/projctHomePrice.png";
 import projectQuizApp from "../../public/assets/projects/projectQuizApp.png";
@@ -24,7 +25,6 @@ import projectEvoGym from "../../public/assets/projects/projectEvoGym.png";
 import projectTodoApp from "../../public/assets/projects/projectTodoApp.png";
 import projectPotatoClassification from "../../public/assets/projects/projectPotatoClassification.png";
 import projectDiscordMiniroy from "../../public/assets/projects/projectDiscordMiniroy.png";
-// import projectMoviex from "../../public/assets/projects/projectMoviex.png";
 import WorkSliderButtons from "@/components/WorkSliderButtons";
 
 // Object Array
@@ -35,8 +35,8 @@ const projectList = [
     title: "DrinkPanda",
     Description: "An online juice selling e-commerce app",
     stack: [{ name: "NextJs" }, { name: "Laravel" }, { name: "PHP" }, {name: "MySQL"}],
-    image: projectMoviex,
-    live: "https://github.com/ankonroy/Drink_Panda",
+    image: projectDrinkPanda,
+    live: "https://drink-panda-frontend.onrender.com/",
     github: "https://github.com/ankonroy/Drink_Panda",
   },
   {
