@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ankon Roy — Portfolio Website
 
-## Getting Started
+Welcome to the source code for my personal portfolio! 
 
-First, run the development server:
+I built this site to have a central place to showcase my projects, my skills, and the things I've been working on. 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 👋 A Quick Intro
+I'm Ankon, a Full-Stack Developer and final-year Computer Science student at KUET. I specialize in building scalable web applications using React, Next.js, Node.js, and Spring Boot. I'm also an ICPC Dhaka Regionalist (2025) and I love solving complex problems, whether it's building a full-stack app or optimizing an algorithm.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+When I'm not coding, I'm usually learning a new tool by building something with it—which is exactly how this portfolio came to life.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### 🛠️ Built With
+This portfolio is built using modern web technologies to ensure it's fast, responsive, and accessible:
+*   **Framework:** Next.js (App Router)
+*   **Styling:** Tailwind CSS
+*   **Animations:** Framer Motion
+*   **UI Components:** Radix UI
+*   **Email:** EmailJS
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### 📬 Let's Connect
+If you like what you see, or if you're looking for a developer for your next project, feel free to reach out!
 
-## Learn More
+*   **Live Site:** [my-portfolio-2-1t64.onrender.com](https://my-portfolio-2-1t64.onrender.com)
+*   **LinkedIn:** [linkedin.com/in/ankon-roy](https://www.linkedin.com/in/ankon-roy)
+*   **Email:** [ankonroy31416@gmail.com](mailto:ankonroy31416@gmail.com)
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+*Thanks for stopping by!*
