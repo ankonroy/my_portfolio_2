@@ -4,8 +4,8 @@ import { FiDownload } from "react-icons/fi";
 import { Button } from "./ui/button";
 
 const DownloadCV = () => {
-  // Update this path to match your PDF file location
-  const cvUrl = "/ankon_roy_resume.pdf"; // e.g., "/resume.pdf", "/cv.pdf"
+  // Use the base path environment variable so the download works in the GitHub Pages subfolder
+  const cvUrl = `${process.env.NEXT_PUBLIC_BASE_PATH}/ankon_roy_resume.pdf`;
 
   const handleDownloadClick = () => {
     // Create a temporary anchor element
@@ -13,7 +13,7 @@ const DownloadCV = () => {
     link.href = cvUrl;
     
     // Set the download attribute with filename
-    link.download = 'ankon_roy_resume.pdf'; // Change to your preferred filename
+    link.download = 'ankon_roy_resume.pdf';
     
     // Append to body, click, and remove
     document.body.appendChild(link);

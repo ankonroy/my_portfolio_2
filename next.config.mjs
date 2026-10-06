@@ -6,6 +6,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  env: {
+    NEXT_PUBLIC_BASE_PATH: '/my_portfolio_2',
+  },
 };
 
 export default nextConfig;
